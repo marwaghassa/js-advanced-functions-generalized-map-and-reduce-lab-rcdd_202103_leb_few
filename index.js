@@ -8,7 +8,7 @@ function map(array, cb) {
   return r;
 }
 
-function reduce(src, cb, starting){
+function reduce(array, cb, starting){
   let r = (!!starting) ? starting : src[0]
   let i = (!!starting) ? 0 : 1
 
